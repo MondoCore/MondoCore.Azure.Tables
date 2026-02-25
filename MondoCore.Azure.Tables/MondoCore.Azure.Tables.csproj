@@ -7,14 +7,14 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Access Azure storage tables or the Table API in Cosmos</Description>
     <Title>MondoCore.Azure.Tables</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Jim Lightfoot</Authors>
     <Company>MondoCore</Company>
     <Product>MondoCore</Product>
     <Copyright>© Jim Lightfoot, All Rights Reserved</Copyright>
     <PackageProjectUrl>https://github.com/MondoCore</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/jim-lightfoot/MondoCore.Azure.Tables</RepositoryUrl>
+    <RepositoryUrl>https://github.com/MondoCore/MondoCore.Azure.Tables</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>MondoCore;Azure;Tables</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -33,8 +33,8 @@
 
   <ItemGroup>
     <PackageReference Include="Azure.Data.Tables" Version="12.11.0" />
-    <PackageReference Include="MondoCore.Common" Version="3.5.2" />
-    <PackageReference Include="MondoCore.Data" Version="3.0.0" />
+    <PackageReference Include="MondoCore.Common" Version="3.5.3" />
+    <PackageReference Include="MondoCore.Data" Version="3.0.1" />
   </ItemGroup>
 
 </Project>
